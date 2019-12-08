@@ -24,3 +24,5 @@ jobs:
         npm test
       env:
         CI: true
+        os: strategy.matrix
+        ubuntu-latest: windows-2016
